@@ -1,0 +1,30 @@
+.custom-pagination ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  
+  .custom-pagination li {
+    margin: 0 5px;
+    display: inline-block;
+  }
+  
+  .custom-pagination li a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+  }
+  
+  .custom-pagination li a:hover {
+    background-color: #eee;
+  }
+  
+  .custom-pagination li a.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
